@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-#container {
-    width: 100%;
-    height: 100%;
+body {
     background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(Canopus.jpg);
     background-size: cover;
     background-position: center;
@@ -31,17 +29,17 @@ color: white;
 }
 
 #main {
+    height: 89%;
     color:  white;
     margin: auto;
     padding: 10px 25px 0 0;
-    height: 89%;
     float: right;
     text-align: center;
 }
 
 #footer {
-    clear: both;
     text-align: center;
+    clear: both;
 }
 
 a {
@@ -52,4 +50,14 @@ a {
 #nav .selected {
     font-weight: bold;
     color: white;
+}
+
+#videos ul a{
+    list-style-type: none;
+    color: white;
+}
+
+#videos .selected{
+    color: white;
+    font-weight: bold;
 }
