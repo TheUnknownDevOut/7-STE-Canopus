@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(Canopus.jpg);
     background-size: cover;
@@ -7,4 +17,4 @@ body {
 #main {
    color:  white;
 text-align: center;
-}
+} 
